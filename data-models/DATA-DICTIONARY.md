@@ -424,8 +424,6 @@ indexes:
 
 ---
 
-## Entity Relationship Diagram (Text)
-
 ## OS-0 Runtime State
 
 OS-0 state is file-backed runtime evidence rather than a relational entity.
@@ -463,6 +461,8 @@ Boot state is atomically persisted at `.vestara/os/boot-state.json` with mode
 `0600`. It contains operational lifecycle evidence and must not contain secrets.
 Host snapshots are refreshed observations and are not authoritative hardware
 inventory history in OS-0.
+
+## Entity Relationship Diagram (Text)
 
 ```
 users ──┬── sessions

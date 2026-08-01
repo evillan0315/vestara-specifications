@@ -219,8 +219,6 @@ This enables questions like:
 
 ---
 
-## Platform API Versioning
-
 ## OS-0 host status API
 
 OS-0 exposes two read-only, provider-neutral status resources through the
@@ -250,6 +248,8 @@ Implementation evidence:
 - Reference: `579df3f`
 - Route: `apps/api/src/routes/host.ts`
 - Types: `packages/host-runtime`, `packages/boot-runtime`
+
+## Platform API Versioning
 
 | Version | Changes | Status |
 |---------|---------|--------|
